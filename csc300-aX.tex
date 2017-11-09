@@ -1,25 +1,39 @@
-\documentclass[12pt]{article}
-\usepackage{natbib}
-
+\documentclass{article}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Mathew Zaleski}
+\chead{zaleskim}
+\rhead{L1 BA4222}
+\rfoot{Page \thepage}
 \begin{document}
 
-\title{BibTeX in action}
-\author{Martin J. Osborne}
-\date{2008-1-13}
+\title{Using BibTeX to do dirty work for Bibliographies}
+\author{Mathew Zaleski}
+\date{2017-11-1}
 
 \maketitle
-
+\thispagestyle{fancy}
 \section{Introduction}
-This document illustrates the use of BibTeX\@.  It follows the
-\cite{bibtex-tutorial}  but replaces the references of that tutorial
-with a couple of the required readings for csc300. You may want to refer to
-\cite{warren-brandeis-1890} or \cite{siva05} or \cite{gosling-interview}.  Or you may want to cite a
-specific page in a reference, like this: see \citet[p.~199]{java-jvm-spec}.
 
+This document illustrates the use of BibTeX\@.  It follows  the webpage
+\cite{bibtex-tutorial}  but replaces the references of that tutorial
+with a couple of the required readings for csc300, etc. 
+
+By way of demo, You may want to refer to a journal article \cite{warren-brandeis-1890}
+or a conference proceeding \cite{siva05} or a \cite{gosling-interview}
+or even a book \cite {java-jvm-spec}!
+
+\section{Thesis}
+
+Something along the lines of although... thesis.. because..
+
+\newpage
+
+just making sure headers are working on the new page..
 
 \bibliographystyle{IEEEtran}
 
 \bibliography{my-bibtex-file}
 
 \end{document}
-
