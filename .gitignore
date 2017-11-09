@@ -1,0 +1,8 @@
+*.aux
+*.dvi
+*.bbl
+IEEEtran/
+*.blg
+*.log
+*.pdf
+*.ps
