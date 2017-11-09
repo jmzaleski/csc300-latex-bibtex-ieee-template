@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\usepackage{natbib}
+
+\begin{document}
+
+\title{BibTeX in action}
+\author{Martin J. Osborne}
+\date{2008-1-13}
+
+\maketitle
+
+\section{Introduction}
+This document illustrates the use of BibTeX\@.  It follows the
+\cite{bibtex-tutorial}  but replaces the references of that tutorial
+with a couple of the required readings for csc300. You may want to refer to
+\cite{warren-brandeis-1890} or \cite{siva05} or \cite{gosling-interview}.  Or you may want to cite a
+specific page in a reference, like this: see \citet[p.~199]{java-jvm-spec}.
+
+
+\bibliographystyle{IEEEtran}
+
+\bibliography{my-bibtex-file}
+
+\end{document}
+
