@@ -4,9 +4,9 @@ csc300-aX.ps: csc300-aX.dvi
 	ls -l csc300-aX.ps
 
 csc300-aX.dvi: csc300-aX.tex csc300-aX.tex IEEEtran.bst
-	latex  CSC300-aX
-	bibtex CSC300-aX
-	latex  CSC300-aX
+	latex  csc300-aX
+	bibtex csc300-aX
+	latex  csc300-aX
 
 IEEEtran.bst:
 	echo downloaded from IEEE on CTAN
