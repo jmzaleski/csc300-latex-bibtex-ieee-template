@@ -1,4 +1,4 @@
-csc300-aX.df: csc300-aX.dvi
+csc300-aX.pdf: csc300-aX.dvi
 	dvipdf csc300-aX.dvi
 	ls -l csc300-aX.pdf
 
